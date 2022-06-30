@@ -1,0 +1,140 @@
+nav {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    font-family:'Poppins', 'Arial', sans-serif;
+    font-size: 36px;
+    color: #3E824B;
+    letter-spacing: 3px;
+    padding: 16px 32px;
+    align-items: center;
+}
+.nav-item:hover{
+    font-weight: bold;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+    
+.Main-Logo {
+    display: flex;
+    width: 450px;
+    height: 253px;
+    justify-content: center;
+}
+
+ul li { 
+    display: inline;
+    width: 50%;
+    margin-left: auto;
+    list-style-type: none;
+}
+.social-logo {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+#section-1 {
+    display: inline-block;
+    max-height: 729px;
+}
+.profilepic {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    height: 729px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+h1 {
+    display: inline;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #586BCF;
+    margin: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+h2 {
+    display: inline;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #586BCF;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right:5px;
+    margin-bottom: 5px;
+}
+p1 {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+p2 {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+p3 {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+button {
+    background-color: #3E824B;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border: none;
+    padding: 15px 32px;
+    transition: 1s ease;
+    width: 250px;
+}
+button:hover {
+    background-color: #F89FEA;
+    color:white;
+    font-size: 20px;
+}
+#section-2 {
+    display: inline-block;
+    max-height: 600px;
+}
+.gridContainer {
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 5px;
+    justify-content: space-around;
+    color: white;
+    font-size: 68px;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-weight: bold;
+ }
+ .rectangle {
+    height: 499px;
+    width: 344px;
+    margin: 9px;
+ }
+ .Bubblegum {
+    background-color: #F89FEA;
+  }
+  .Tangerine {
+    background-color: #F49A67;
+  }
+  .Amazon {
+    background-color: #3E824B;
+}
+ .HanBlue {
+    background-color: #586BCF;
+  }
+  .Amazon {
+      background-color: #3E824B;
+  }
