@@ -74,6 +74,13 @@ h2 {
     margin-right:5px;
     margin-bottom: 5px;
 }
+h3 {
+    display: inline;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 68px;
+    font-weight: bold;
+    color: #E66B6B;
+}
 p1 {
     font-family: 'Poppins', 'Arial', sans-serif;
     font-size: 18px;
@@ -88,6 +95,21 @@ p3 {
     font-family: 'Poppins', 'Arial', sans-serif;
     font-size: 18px;
     margin: 20px;
+}
+p4 {
+    display: flex;
+    justify-content: center;
+    padding: 300px 0;
+}
+p5 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+p6 {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
 }
 button {
     background-color: #3E824B;
@@ -122,7 +144,9 @@ button:hover {
     height: 499px;
     width: 344px;
     margin: 9px;
+    text-align: center;
  }
+
  .Bubblegum {
     background-color: #F89FEA;
   }
