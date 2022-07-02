@@ -4,6 +4,10 @@ nav {
     align-items: center;
     justify-content: center;
 }
+header {
+    width: 100%;
+    padding: 25px;
+}
 
 .nav-item {
     font-family:'Poppins', 'Arial', sans-serif;
@@ -46,12 +50,11 @@ ul li {
     max-height: 729px;
 }
 .profilepic {
-    display: flex;
-    flex-direction: column;
-    max-width: 450px;
-    height: 729px;
-    align-items: flex-start;
-    justify-content: flex-start;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.textbox{
+    width: 80%;
 }
 h1 {
     display: inline;
@@ -59,7 +62,6 @@ h1 {
     font-size: 48px;
     font-weight: bold;
     color: #586BCF;
-    margin: 20px;
     align-items: flex-start;
     justify-content: flex-start;
 }
@@ -70,46 +72,45 @@ h2 {
     font-weight: bold;
     color: #586BCF;
     margin-top: 0px;
-    margin-left: 20px;
-    margin-right:5px;
-    margin-bottom: 5px;
 }
 h3 {
+    display: flex;
+    justify-content: center;
+    padding: 300px 0;
+    font-size: 70px;
+    font-weight: bold;
+}
+h4 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    font-size: 70px;
+    font-weight: bold;
+}
+h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+h6 {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+h7 {
     display: inline;
     font-family: 'Poppins', 'Arial', sans-serif;
     font-size: 68px;
     font-weight: bold;
     color: #E66B6B;
 }
-p1 {
+p {
     font-family: 'Poppins', 'Arial', sans-serif;
     font-size: 18px;
-    margin: 20px;
-}
-p2 {
-    font-family: 'Poppins', 'Arial', sans-serif;
-    font-size: 18px;
-    margin: 20px;
-}
-p3 {
-    font-family: 'Poppins', 'Arial', sans-serif;
-    font-size: 18px;
-    margin: 20px;
-}
-p4 {
-    display: flex;
-    justify-content: center;
-    padding: 300px 0;
-}
-p5 {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
-}
-p6 {
-    display: flex;
-    justify-content: center;
-    padding: 70px 0;
 }
 button {
     background-color: #3E824B;
@@ -149,16 +150,78 @@ button:hover {
 
  .Bubblegum {
     background-color: #F89FEA;
+    margin-top: 30%;
   }
   .Tangerine {
     background-color: #F49A67;
+    margin-top: 50%;
   }
   .Amazon {
     background-color: #3E824B;
 }
  .HanBlue {
     background-color: #586BCF;
+    margin-top: 30%;
   }
   .Amazon {
       background-color: #3E824B;
   }
+  #section-3 {
+      display: inline-block;
+      height: 600px;
+  }
+  .textheader {
+      margin-top: 115px;
+  }
+  .maingroup {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  .group-1 {
+      display: grid;
+      grid-template-rows: 1fr, 1fr, 1fr;
+  }
+  h8 {
+      font-family: "Poppins", "Arial", sans-serif;
+      font-size: 56px;
+      font-weight: bold;
+      text-align: left;
+      padding-left: 20px;
+  }
+  p2 {
+      padding: 20px;
+  }
+  .pink {
+      color: #F89FEA;
+  }
+  .orange {
+      color: #F49A67;
+  }
+  .blue {
+      color: #586BCF;
+  }
+  .green {
+      color: #3E824B;
+  }
+  .red {
+      color: #E66B6B;
+  }
+
+  .group-2 {
+      display: grid;
+      grid-template-rows: 1fr;
+  }
+  .group-3 {
+      display: grid;
+  }
+  h9 {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+}
+p3 {
+    text-align: right;
+    padding-right: 20px;
+}
