@@ -168,11 +168,19 @@ button:hover {
   }
   #section-3 {
       display: inline-block;
-      height: 600px;
   }
   .textheader {
       margin-top: 115px;
       margin-left: 9px;
+  }
+  .lineStyle {
+      width: 77%;
+      float: right;
+      height: 6px;
+      background-color: #E66B6B;
+      border:none;
+      margin-top: 45px;
+
   }
   .maingroup {
       display: grid;
@@ -186,7 +194,6 @@ button:hover {
       font-family: "Poppins", "Arial", sans-serif;
       font-size: 56px;
       font-weight: bold;
-      text-align: left;
       padding-left: 20px;
   }
   p2 {
@@ -215,16 +222,37 @@ button:hover {
   .group-3 {
       display: grid;
   }
+
+.skills-1 {
+      display: flex;
+      justify-content: flex-end;
+}
+.skills-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
   h9 {
     font-family: "Poppins", "Arial", sans-serif;
     font-size: 56px;
     font-weight: bold;
-    text-align: right;
     padding-right: 20px;
 }
 p3 {
     text-align: right;
     padding-right: 20px;
+}
+p4 {
+    text-align: left;
+    font-size: 30px;
+    color: green;
+    padding-right: 25px;
+}
+p5 {
+    text-align: right;
+    font-size: 30px;
+    color: green;
+    padding-left: 25px;
 }
 .footerContainer {
     display: flex;
@@ -232,6 +260,7 @@ p3 {
     justify-content: space-between;
     background-color: rgba(244, 154, 103, .3);
     padding: 15px;
+    margin-top: 15px;
     font-family: 'Poppins', 'Arial', sans-serif;
     font-size: 15px;
     font-weight: bold;
