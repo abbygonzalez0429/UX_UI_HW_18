@@ -172,6 +172,7 @@ button:hover {
   }
   .textheader {
       margin-top: 115px;
+      margin-left: 9px;
   }
   .maingroup {
       display: grid;
