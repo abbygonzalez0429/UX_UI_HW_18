@@ -20,6 +20,10 @@ header {
 .nav-item:hover{
     font-weight: bold;
 }
+.nav-item-mobile {
+    display: none;
+    background-image: ()
+}
 
 .inline-block {
     display: inline-block;
@@ -269,7 +273,13 @@ p5 {
 }
 @media only screen and (max-width: 600px) {
     .nav-item {
-        display:none;
+        display: none;
+    }
+    .nav-item-mobile {
+        display: block;
+    }
+    .social-logo {
+        display: none;
     }
     .Main-Logo {
         display: flex;
