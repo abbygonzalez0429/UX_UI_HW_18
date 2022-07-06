@@ -285,4 +285,62 @@ p5 {
         display: flex;
         justify-content: flex-start;
     }
+    .profilepic {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    #section-2 {
+        display: flex;
+        max-height: none;
+        justify-content: center;
+    }
+    .gridContainer{
+        grid-template-columns: 1fr;
+        grid-gap: 1px;
+    }
+    .rectangle {
+    height: 499px;
+    width: 500px;
+    }
+    .Bubblegum{
+    margin-top: 15px;
+    }
+    .Tangerine {
+    margin-top: 0px;
+    }
+    .HanBlue {
+        margin-top: 0px;
+    }
+    h3 {
+        padding: 120px;
+    }
+    h4 {
+        padding: 100px;
+    }
+    h5 {
+        padding: 85px;
+    }
+    h6 {
+        padding: 25px 0;
+    }
+    .textheader {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .lineStyle {
+        display: none;
+    }
+    .maingroup {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .group-2 {
+        display: flex;
+        width: 600px;
+    }
+    .footerContainer {
+        text-align: center;
+        margin-top: 35px;
+    }
 }
